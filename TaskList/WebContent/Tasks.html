@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Tasks</title>
+<style>
+form {
+	background-color: yellow;
+	padding: 0px;
+	border: 2px solid black;
+	margin: 0px 400px 0px 400px;
+	height: 500px;
+}
+
+#entry {
+	position: relative;
+	top: 392px;
+	border: 1px solid black;
+	width: 396px;
+	height: 2.2em;
+}
+
+#heading {
+	text-align: center;
+}
+
+#submit {
+	position: relative;
+	top: 361px;
+	text-align:top left;
+	border: 1px solid black;
+	width: 40px;
+	
+	font-size:3em;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+}
+</style>
+</head>
+<body>
+	<form action="tasks" method="post">
+		<div id="heading">
+			<h3>List of Tasks</h3>
+			<hr />
+		</div>
+		<div>
+			<ul></ul>
+		</div>
+		<div>
+			<input id="entry" type="text" name="item" style="" /> <input
+				type="submit" value="+" id="submit" />
+		</div>
+
+
+	</form>
+</body>
+</html>
